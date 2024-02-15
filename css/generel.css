@@ -35,3 +35,38 @@ html {
   --font-2: "Inter", sans-serif;
 }
 /* -------------------------variabler------------------------- */
+
+header {
+  position: sticky;
+  top: 0;
+  padding: 1.5rem 2rem;
+  box-shadow: 0 10px 20px rgba(85, 73, 50, 0.3);
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.logo img {
+  width: 8vw;
+  height: 9vw;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 0.5rem;
+  gap: 30px;
+  overflow: auto;
+}
+
+a {
+  text-decoration: none;
+  color: var(--cl-4);
+}
+
+a:hover {
+  color: var(--cl-5);
+}

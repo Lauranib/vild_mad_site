@@ -27,11 +27,11 @@ html {
   --cl-4: #554932;
   --cl-5: #6f1e23;
 
-  --font-h1: 2.8rem;
-  --font-h2: 1.5rem;
-  --font-aogp: 1rem;
+  --size-h1: 2.8rem;
+  --size-h2: 1.5rem;
+  --size-p: 1rem;
 
-  --primary-font: "Lexend Mega", sans-serif;
-  --secondary-font: "Inter", sans-serif;
+  --font-1: "Lexend Mega", sans-serif;
+  --font-2: "Inter", sans-serif;
 }
 /* -------------------------variabler------------------------- */

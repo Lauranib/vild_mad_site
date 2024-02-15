@@ -1,0 +1,37 @@
+/* ---------------------------reset--------------------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--cl-2);
+  margin: 0rem;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  align-self: stretch;
+}
+/* ---------------------------reset--------------------------- */
+
+/* -------------------------variabler------------------------- */
+html {
+  --cl-1: #ffffff;
+  --cl-2: #faf6e0;
+  --cl-3: #f2e9b8;
+  --cl-4: #554932;
+  --cl-5: #6f1e23;
+
+  --font-h1: 2.8rem;
+  --font-h2: 1.5rem;
+  --font-aogp: 1rem;
+
+  --primary-font: "Lexend Mega", sans-serif;
+  --secondary-font: "Inter", sans-serif;
+}
+/* -------------------------variabler------------------------- */

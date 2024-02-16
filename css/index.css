@@ -1,8 +1,8 @@
 /* -------------------------Hero Image by w3schools-------------------------- */
 .hero-image {
-  background-image: url("billeder/heroguess2.webp");
+  background-image: url("billeder/forest.png");
   /* Photo by Tim Foster: https://unsplash.com/photos/BeDY9KuP0sI */
-  height: 100vh;
+  height: 80vh;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-attachment: fixed;

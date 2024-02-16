@@ -1,0 +1,96 @@
+.hero-image {
+  background-image: url("billeder/forest.jpg");
+  height: 60vh;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+  overflow: hidden;
+}
+
+#beige {
+  height: 500px;
+  background-color: var(--cl-2);
+  overflow: hidden;
+}
+
+#gul {
+  width: 150%;
+  height: 150%;
+  background-color: var(--cl-3);
+  border-radius: 100%;
+  top: 50%;
+  left: -25%;
+  right: 0;
+  position: relative;
+}
+
+.contact_title {
+  padding-bottom: 15rem;
+  background-color: var(--cl-3);
+  text-align: center;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.contact_photo img {
+  height: 60vh;
+}
+
+.index_middle {
+  background-color: var(--cl-3);
+  padding: 10rem 0;
+}
+
+.col_button2 {
+  display: flex;
+  margin-bottom: 1em;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.index_button2 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 60px;
+  padding-right: 60px;
+  color: var(--cl-3);
+  text-decoration: none;
+  background-color: var(--cl-5);
+  box-shadow: 3px 3px 1px rgba(85, 73, 50, 0.2);
+  border-radius: 3px;
+}
+
+.index_button2:hover {
+  color: var(--cl-2);
+  background-color: var(--cl-4);
+  transition: 0.1s;
+}
+
+h1,
+h2 {
+  margin-bottom: 1rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 12rem;
+}
+
+input,
+textarea {
+  margin-top: 0.2rem;
+  margin-bottom: 0.8rem;
+  width: 100%;
+}
+
+textarea {
+  height: 6rem;
+}

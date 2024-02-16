@@ -9,11 +9,10 @@
   left: 0;
   width: 100%;
   z-index: -1;
-  overflow: hidden;
 }
 
 #beige {
-  height: 500px;
+  height: 350px;
   background-color: var(--cl-2);
   overflow: hidden;
 }
@@ -27,6 +26,12 @@
   left: -25%;
   right: 0;
   position: relative;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-1);
 }
 
 .contact_title {
@@ -82,6 +87,7 @@ form {
   display: flex;
   flex-direction: column;
   width: 12rem;
+  font-family: var(--font-2);
 }
 
 input,
@@ -93,4 +99,25 @@ textarea {
 
 textarea {
   height: 6rem;
+}
+
+.submit {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 60px;
+  padding-right: 60px;
+  color: var(--cl-3);
+  text-decoration: none;
+  background-color: var(--cl-5);
+  box-shadow: 3px 3px 1px rgba(85, 73, 50, 0.2);
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  font-family: var(--font-2);
+}
+
+.submit:hover {
+  color: var(--cl-2);
+  background-color: var(--cl-4);
+  transition: 0.1s;
 }

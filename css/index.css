@@ -1,7 +1,6 @@
 /* -------------------------Hero Image by w3schools-------------------------- */
 .hero-image {
   background-image: url("billeder/forest.jpg");
-  /* Photo by Tim Foster: https://unsplash.com/photos/BeDY9KuP0sI */
   height: 80vh;
   background-position: 50% 50%;
   background-repeat: no-repeat;
@@ -11,6 +10,18 @@
   left: 0;
   width: 100%;
   z-index: -1;
+  overflow: hidden;
+}
+
+#red {
+  width: 150%;
+  height: 150%;
+  background-color: var(--cl-3);
+  border-radius: 100%;
+  top: 75%;
+  left: -25%;
+  right: 0;
+  position: relative;
 }
 
 /* .hero-text {
@@ -22,3 +33,64 @@
   color: white;
 } */
 /* -------------------------Hero Image by w3schools-------------------------- */
+
+.index_title {
+  padding-bottom: 15rem;
+  background-color: var(--cl-3);
+}
+
+.index_photo img {
+  height: 60vh;
+}
+
+.grid_1-1 {
+  background-color: var(--cl-4);
+}
+
+.col_button {
+  display: flex;
+  margin-bottom: 1em;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.index_button {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 60px;
+  padding-right: 60px;
+  color: var(--cl-4);
+  text-decoration: none;
+  background-color: var(--cl-3);
+  /* border: 0.1em solid #5d6e4c; */
+  border-radius: 3px;
+}
+
+.index_button:hover {
+  color: var(--cl-6);
+  background-color: var(--cl-5);
+  transition: 0.1s;
+}
+
+@media (min-width: 800px) {
+  .grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: var(--cl-4);
+  }
+
+  .col_button {
+    display: flex;
+    margin-bottom: 1em;
+    justify-content: left;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .order {
+    order: -1;
+  }
+}

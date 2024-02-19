@@ -8,6 +8,51 @@ img {
   height: auto;
   display: block;
 }
+
+.row2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 30px;
+}
+.overskrift1 {
+  font-family: var(--font-1);
+}
+.kejserhatte {
+  font-size: 1.5rem;
+  padding-bottom: 5px;
+  padding-top: 10px;
+
+  color: #241402;
+  font-weight: bold;
+  font-family: var(--font-2);
+}
+.overskrift {
+  color: #6f1e23;
+  text-align: center;
+  padding-top: 50px;
+  font-size: 1.5rem;
+  font-family: var(--font-1);
+}
+.forsidebillede {
+  background-image: url("billeder/forest.jpg");
+  height: 90vh;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+  overflow: hidden;
+}
+p {
+  font-family: var(--font-2);
+}
+h3 {
+  font-family: var(--font-2);
+}
 @media (max-width: 800px) {
   body {
     background-color: #efede0;
@@ -22,13 +67,26 @@ img {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
-    width: 400px;
+
     padding-top: 50px;
     padding-left: 30px;
     padding-bottom: 50px;
   }
 
-  .forsidebillede {
+
+    .forsidebillede {
+      background-image: url("billeder/forest.jpg");
+      height: 90vh;
+      background-position: 50% 50%;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      position: relative;
+      left: 0;
+      width: 100%;
+      z-index: -1;
+      overflow: hidden;
+    }
   }
   .header {
     position: sticky;
@@ -44,7 +102,6 @@ img {
     font-size: 1.5rem;
     padding-bottom: 5px;
     padding-top: 10px;
-
     color: #241402;
     font-weight: bold;
   }
@@ -73,9 +130,8 @@ img {
     padding-left: 30px;
   }
 
-  .logo {
-    width: 80px;
-    height: 80px;
+  .logo img {
+    width: auto;
   }
 
   .mainNav {

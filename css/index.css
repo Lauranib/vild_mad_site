@@ -48,12 +48,19 @@ h1 {
 
 h2 {
   font-size: 6vw;
+  margin-bottom: 20px;
 }
 
-h3 {
+.index_middle h3 {
   text-align: center;
   font-size: 7vw;
   color: var(--cl-4);
+}
+
+.col p {
+  margin-bottom: 40px;
+  font-size: 3.8vw;
+  font-weight: 400;
 }
 
 main {
@@ -66,6 +73,10 @@ main {
   text-align: center;
   padding-left: 2rem;
   padding-right: 2rem;
+}
+
+.menu a {
+  font-family: var(--font-2);
 }
 
 .index_photo img {
@@ -105,7 +116,7 @@ main {
 
 .index_middle {
   background-color: var(--cl-3);
-  padding: 10rem 0;
+  padding: 5rem 0;
 }
 
 .col_button2 {
@@ -132,11 +143,23 @@ main {
 .index_button2:hover {
   color: var(--cl-2);
   background-color: var(--cl-4);
-  transition: 0.1s;
+  transition: 0.15s;
+}
+
+.col_button a,
+.col_button2 a {
+  font-size: 1.5rem;
 }
 
 .col {
   color: var(--cl-3);
+}
+
+.col_text,
+.col_text2 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin: 0 20px;
 }
 
 @media (min-width: 800px) {
@@ -147,16 +170,27 @@ main {
 
   h2 {
     font-size: 2.5rem;
+    margin-bottom: 30px;
   }
 
-  h3 {
+  .index_middle h3 {
     font-size: 3rem;
+    margin-bottom: 50px;
+  }
+
+  .col p {
+    margin-bottom: 50px;
+    font-size: 1.2rem;
   }
 
   .index_title {
     padding-bottom: 10rem;
     padding-left: 5rem;
     padding-right: 5rem;
+  }
+
+  .menu a {
+    font-size: 1.5rem;
   }
 
   .grid_1-1 {
@@ -196,5 +230,9 @@ main {
 
   .order {
     order: -1;
+  }
+
+  .index_middle {
+    padding: 10rem 0;
   }
 }

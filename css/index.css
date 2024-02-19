@@ -38,10 +38,22 @@ h1,
 h2,
 h3 {
   font-family: var(--font-1);
+  font-weight: 400;
+}
+
+h1 {
+  color: var(--cl-4);
+  font-size: 8vw;
+}
+
+h2 {
+  font-size: 6vw;
 }
 
 h3 {
   text-align: center;
+  font-size: 7vw;
+  color: var(--cl-4);
 }
 
 main {
@@ -49,11 +61,11 @@ main {
 }
 
 .index_title {
-  padding-bottom: 15rem;
+  padding-bottom: 6rem;
   background-color: var(--cl-3);
   text-align: center;
-  padding-left: 5rem;
-  padding-right: 5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .index_photo img {
@@ -128,6 +140,25 @@ main {
 }
 
 @media (min-width: 800px) {
+  h1 {
+    color: var(--cl-4);
+    font-size: 4rem;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+  }
+
+  h3 {
+    font-size: 3rem;
+  }
+
+  .index_title {
+    padding-bottom: 10rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
   .grid_1-1 {
     display: grid;
     grid-template-columns: 1fr 1fr;

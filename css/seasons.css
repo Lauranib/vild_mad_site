@@ -1,10 +1,108 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-img {
+.hero-image {
+  background-image: url("billeder/forest.jpg");
+  height: 60vh;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+  left: 0;
   width: 100%;
-  height: auto;
-  display: block;
+  z-index: -1;
+}
+
+#beige {
+  height: 200px;
+  background-color: var(--cl-2);
+  overflow: hidden;
+  background-color: transparent;
+}
+
+#gul {
+  width: 150%;
+  height: 200%;
+  background-color: var(--cl-3);
+  border-radius: 100%;
+  top: 50%;
+  left: -25%;
+  right: 0;
+  position: relative;
+}
+
+.grid h2 {
+  margin-top: 5%;
+  margin-left: 50px;
+}
+
+.grid {
+  background-color: var(--cl-3);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid img {
+  height: 28em;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  box-shadow: 3px 3px 6px rgba(30, 30, 30, 0.2);
+  border-radius: 5px;
+}
+
+.grid:nth-child(even) {
+  background-color: #554932;
+}
+
+.col_button {
+  display: flex;
+  margin-bottom: 1em;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.index_button {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 60px;
+  padding-right: 60px;
+  color: beige;
+  text-decoration: none;
+  background-color: #554932;
+  box-shadow: 3px 3px 1px rgba(30, 30, 30, 0.2);
+  border-radius: 3px;
+}
+
+.index_button:hover {
+  color: var(--cl-6);
+  opacity: 80%;
+  transition: 0.1s;
+}
+
+.index_button:nth-child(even) {
+  background-color: var(--cl-5);
+}
+
+h1 {
+  font-family: var(--font-1);
+  font-size: var(--size-h1);
+}
+
+h2,
+h3 {
+  font-family: var(--font-1);
+  color: #554932;
+  font-size: var(--size-h2);
+}
+
+p {
+  font-family: var(--font-2);
+  font-size: var(--size-p);
+}
+
+.grid:nth-child(even) h1,
+.grid:nth-child(even) h2,
+.grid:nth-child(even) h3,
+.grid:nth-child(even) p {
+  color: beige;
 }

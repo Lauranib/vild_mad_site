@@ -25,7 +25,7 @@ function showProduct(items){
     const copy = template.cloneNode(true);
     //ændre indholds
     copy.querySelector(".svampe").src = items.Billede;
-    copy.querySelector("p").textContent = items.Svampenavn;
+    copy.querySelector(".p_svampenavn").textContent = items.Svampenavn;
     copy.querySelector(".p_svampe").textContent = items.Beskrivelse; 
 
 

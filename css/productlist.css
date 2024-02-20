@@ -120,6 +120,12 @@ h3 {
   padding-top: 30px;
 }
 
+.p_svampenavn{
+  padding-bottom: 8px;
+  font-family: sans-serif;
+  font-size: 0.9rem;
+}
+
 .svampe {
   border-radius: 10px;
 

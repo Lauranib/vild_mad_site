@@ -37,19 +37,7 @@ p {
 h3 {
   font-family: var(--font-2);
 }
-.forsidebillede {
-  background-image: url("billeder/forest.jpg");
-  height: 90vh;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  position: relative;
-  left: 0;
-  width: 100%;
-  z-index: -1;
-  overflow: hidden;
-}
+
 .p_svampe {
   padding-bottom: 10px;
 }
@@ -88,19 +76,6 @@ h3 {
     position: sticky;
   }
 
-  .forsidebillede {
-    background-image: url("billeder/forest.jpg");
-    height: 90vh;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    position: relative;
-    left: 0;
-    width: 100%;
-    z-index: -1;
-    overflow: hidden;
-  }
   .kejserhatte {
     font-size: 1.5rem;
     padding-bottom: 5px;

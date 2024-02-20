@@ -12,20 +12,24 @@
 }
 
 #beige {
-  height: 350px;
+  height: 200px;
   background-color: var(--cl-2);
   overflow: hidden;
 }
 
 #gul {
   width: 150%;
-  height: 150%;
+  height: 200%;
   background-color: var(--cl-3);
   border-radius: 100%;
   top: 50%;
   left: -25%;
   right: 0;
   position: relative;
+}
+
+main {
+  font-family: var(--font-2);
 }
 
 h1,
@@ -141,6 +145,7 @@ textarea {
   text-align: center;
   padding-top: 50px;
   font-size: 4rem;
+  font-weight: 500;
 }
 
 @media (min-width: 800px) {

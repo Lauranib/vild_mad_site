@@ -21,7 +21,7 @@
             <a href="index.html"><img src="billeder/logo.webp" alt="logo"></a>
         </div>
         <nav>
-            <ul class="menu">
+            <ul class="menu1">
                 <li><a href="seasons.html">Seasons</a></li>
                 <li><a href="recipes.html">Recipes</a></li>
                 <li><a href="teachers.html">Teachers</a></li>
@@ -36,10 +36,13 @@
     </header>
 
     <div class="forsidebillede">
-
+        <img src="billeder/skov_header.svg">
     </div>
     <main>
 
+        <div>
+            <img id="bue" src="billeder/Ellipse 1.svg" alt="rund bue">
+        </div>
 
 
         <div class="row">
@@ -48,7 +51,7 @@
             </div>
 
             <div class="row2">
-                <div class="billeder">
+                <!--<div class="billeder">
                     <img class="svampe" src="billeder/svampebillede.svg" alt="svamp">
                     <div class="kejserhatte">
                         <p>King trumpet</p>
@@ -65,12 +68,16 @@
                 <div class="billeder">
                     <img class="svampe" src="billeder/svampebillede.svg" alt="svamp">
                     <div class="kejserhatte">
-                        <p>King trumpet</p>
+                        <p class="svampenavn"> King trumpet</p>
                     </div>
                     <p class="p_svampe">Særligt god i pastaretter</p>
                     <div class="knap">
                         <a href="index.html">
-                            <h3>Se mere</h3>
+                            <div class="se">
+                                <div class="se">
+                                    <h3>Se mere</h3>
+                                </div>
+                            </div>
                         </a>
                     </div>
                 </div>
@@ -79,12 +86,15 @@
                 <div class="billeder">
                     <img class="svampe" src="billeder/svampebillede.svg" alt="svamp">
                     <div class="kejserhatte">
-                        <p>King trumpet</p>
+                        <p class="svampenavn"> King trumpet</p>
+
                     </div>
                     <p class="p_svampe">Særligt god i pastaretter</p>
                     <div class="knap">
                         <a href="index.html">
-                            <h3>Se mere</h3>
+                            <div class="se">
+                                <h3>Se mere</h3>
+                            </div>
                         </a>
                     </div>
                 </div>
@@ -92,12 +102,15 @@
                 <div class="billeder">
                     <img class="svampe" src="billeder/svampebillede.svg" alt="svamp">
                     <div class="kejserhatte">
-                        <p>King trumpet</p>
+                        <p class="svampenavn"> King trumpet</p>
+
                     </div>
                     <p class="p_svampe">Særligt god i pastaretter</p>
                     <div class="knap">
                         <a href="index.html">
-                            <h3>Se mere</h3>
+                            <div class="se">
+                                <h3>Se mere</h3>
+                            </div>
                         </a>
                     </div>
                 </div>
@@ -105,15 +118,30 @@
                 <div class="billeder">
                     <img class="svampe" src="billeder/svampebillede.svg" alt="svamp">
                     <div class="kejserhatte">
-                        <p>King trumpet</p>
+                        <p class="svampenavn"> King trumpet</p>
                     </div>
                     <p class="p_svampe">Særligt god i pastaretter</p>
                     <div class="knap">
                         <a href="index.html">
-                            <h3>Se mere</h3>
+                            <div class="se">
+                                <h3>Se mere</h3>
+                            </div>
                         </a>
                     </div>
-                </div>
+                </div> -->
+                <template id="svampeTemplate">
+                    <article class="smallProduct">
+                        <a href="svampeside.html"></a>
+                        <img class="svampe" src="billeder/svampebillede.svg" alt="svamp">
+                        <p class="p_svampenavn">King trumpet</p>
+                        <p class="p_svampe">Særligt god i pastaretter</p>
+                        <div class="knap">
+                            <a href="index.html">
+                                <h3>Se mere</h3>
+                            </a>
+                        </div>
+                    </article>
+                </template>
 
 
 
@@ -141,7 +169,7 @@
             <!-- <img class="logo1" src="Layer 11.png" alt=""> -->
         </footer>
     </div>
-    <script src="script.js"></script>
+    <script src="js/productlisst.js"></script>
     <script src="js/generel.js"></script>
 </body>
 

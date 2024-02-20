@@ -29,9 +29,16 @@
   position: relative;
 }
 
+.seasons_title {
+  background-color: var(--cl-3);
+  font-family: var(--font-1);
+  text-align: center;
+  padding-bottom: 50px;
+  color: var(--cl-4);
+}
+
 .grid h2 {
   margin-top: 5%;
-  margin-left: 50px;
 }
 
 .grid {
@@ -48,8 +55,23 @@
   border-radius: 5px;
 }
 
+.grid_text {
+  font-family: var(--font-2);
+  font-size: var(--size-p);
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 50px;
+  margin-bottom: -20px;
+}
+
 .grid:nth-child(even) {
   background-color: #554932;
+}
+
+@media screen and (max-width: 800px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 .col_button {
@@ -57,7 +79,7 @@
   margin-bottom: 1em;
   justify-content: center;
   align-items: center;
-  margin-top: 20px;
+  margin-top: 170px;
   margin-bottom: 20px;
 }
 
@@ -95,10 +117,14 @@ h3 {
   font-size: var(--size-h2);
 }
 
-p {
+/* p {
   font-family: var(--font-2);
   font-size: var(--size-p);
-}
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 50px;
+  margin-bottom: -20px;
+} */
 
 .grid:nth-child(even) h1,
 .grid:nth-child(even) h2,

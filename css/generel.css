@@ -167,7 +167,6 @@ nav {
 
 /* -------------------------navbar------------------------- */
 
-
 /* --------------------------footer------------------------ */
 
 .grid_1-1-1-1 {
@@ -182,10 +181,10 @@ nav {
   color: var(--cl-4);
 }
 @media (max-width: 600px) {
-  .grid_1-1-1-1{
-      display: grid;
-      grid-template-columns: 1fr;
-      column-gap: 1em;
+  .grid_1-1-1-1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 1em;
   }
 }
 
@@ -232,7 +231,7 @@ nav {
 li {
   list-style: none;
   margin-top: 0.8rem;
-  margin-bottom: 08.rem;
+  margin-bottom: 08rem;
 }
 
 p {

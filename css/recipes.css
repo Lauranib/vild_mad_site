@@ -18,6 +18,9 @@ img {
 .overskrift1 {
   font-family: var(--font-1);
 }
+.se {
+  padding-bottom: 80px;
+}
 .kejserhatte {
   font-size: 1.5rem;
   padding-bottom: 5px;
@@ -46,6 +49,9 @@ h3 {
   width: 100%;
   z-index: -1;
   overflow: hidden;
+}
+.p_svampe {
+  padding-bottom: 10px;
 }
 
 @media (max-width: 700px) {
@@ -153,25 +159,25 @@ h3 {
 }
 
 /*.lister {
-        list-style: none;
-        margin: 0;
-        padding: 0;
-        align-items: center;
-      }
-      
-      .lister li {
-        display: inline-block; 
-        margin-right: 20px; 
-      }
-      
-      .lister li:last-child {
-        margin-right: 0; 
-      }
-      .lister li {
-        display: inline-block; 
-        margin-right: 20px; 
-      }
-      
-      .lister li:last-child {
-        margin-right: 0; 
-      }*/
+          list-style: none;
+          margin: 0;
+          padding: 0;
+          align-items: center;
+        }
+        
+        .lister li {
+          display: inline-block; 
+          margin-right: 20px; 
+        }
+        
+        .lister li:last-child {
+          margin-right: 0; 
+        }
+        .lister li {
+          display: inline-block; 
+          margin-right: 20px; 
+        }
+        
+        .lister li:last-child {
+          margin-right: 0; 
+        }*/

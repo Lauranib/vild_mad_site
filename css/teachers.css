@@ -1,0 +1,149 @@
+.hero-image {
+  background-image: url("billeder/forest.jpg");
+  height: 60vh;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+#beige {
+  height: 350px;
+  background-color: var(--cl-2);
+  overflow: hidden;
+}
+
+#gul {
+  width: 150%;
+  height: 150%;
+  background-color: var(--cl-3);
+  border-radius: 100%;
+  top: 50%;
+  left: -25%;
+  right: 0;
+  position: relative;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-1);
+  color: #554932;
+}
+
+.teacher_title {
+  padding-bottom: 10rem;
+  background-color: var(--cl-3);
+  text-align: center;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+#grid02 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+#grid02 h2 {
+  text-align: center;
+}
+
+#more {
+  padding-top: 3%;
+  padding-bottom: 3%;
+  margin-top: 3%;
+  background-color: #554932;
+}
+
+#more.index {
+  margin-top: -1%;
+}
+
+#more h1 {
+  font-family: var(--font-1);
+  font-weight: 200;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  color: beige;
+}
+
+.card h2 {
+  margin-top: 7%;
+  font-family: var(--font-1);
+  font-size: 20px;
+  font-weight: 100;
+  padding-bottom: 5%;
+  color: beige;
+}
+
+.card img {
+  max-width: 50%;
+  justify-self: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 7%;
+}
+
+.card img:hover {
+  opacity: 0.6;
+}
+
+p {
+  color: #554932;
+  font-size: var(--size-p);
+  margin-top: 5%;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+  font-family: var(--font-2);
+}
+
+#grid03 h2 {
+  margin-top: 5%;
+  margin-left: 50px;
+}
+
+#grid03 {
+  background-color: var(--cl-3);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#grid03 img {
+  height: 28em;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  box-shadow: 3px 3px 6px rgba(30, 30, 30, 0.2);
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 800px) {
+  #grid02 {
+    grid-template-columns: 1fr;
+  }
+
+  #grid02 img {
+    width: 30%;
+  }
+  #grid02 h2 {
+    text-align: center;
+  }
+
+  #grid03 {
+    grid-template-columns: 1fr;
+  }
+}
+
+div.card a h2:hover {
+  opacity: 50%;
+}
+
+#topimg {
+  border-radius: 50%;
+  max-width: 25%;
+}

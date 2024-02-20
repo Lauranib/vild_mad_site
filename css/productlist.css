@@ -14,10 +14,16 @@ img {
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 20px;
   padding: 30px;
+  background-color: var(--cl-3);
 }
 
 .overskrift1 {
   font-family: var(--font-1);
+}
+
+#bue {
+  margin-top: 4rem;
+  margin-bottom: -390px;
 }
 
 .kejserhatte {
@@ -68,7 +74,6 @@ h3 {
 
   .forsidebillede {
     background-image: url("billeder/forest.jpg");
-    height: 90vh;
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -80,16 +85,7 @@ h3 {
     overflow: hidden;
   }
 }
-header {
-  position: sticky;
-  top: 0;
-  padding: 0.8rem 2rem;
-  box-shadow: 0 10px 10px rgba(85, 73, 50, 0.1);
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  background-color: var(--cl-2);
-}
+
 .kejserhatte {
   font-size: 1.5rem;
   padding-bottom: 5px;

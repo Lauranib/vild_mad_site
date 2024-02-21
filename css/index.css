@@ -1,6 +1,6 @@
 /* -------------------------Hero Image by w3schools-------------------------- */
 .hero-image {
-  background-image: url("billeder/forest.jpg");
+  background-image: url("billeder/forest.webp");
   height: 90vh;
   background-position: 50% 50%;
   background-repeat: no-repeat;

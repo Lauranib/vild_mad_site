@@ -1,5 +1,5 @@
 .hero-image {
-  background-image: url("billeder/forest.jpg");
+  background-image: url("billeder/forest.webp");
   height: 60vh;
   background-position: 50% 50%;
   background-repeat: no-repeat;
@@ -10,13 +10,11 @@
   width: 100%;
   z-index: -1;
 }
-
 #beige {
   height: 200px;
   background-color: var(--cl-2);
   overflow: hidden;
 }
-
 #gul {
   width: 150%;
   height: 200%;
@@ -27,42 +25,34 @@
   right: 0;
   position: relative;
 }
-
 main {
   font-family: var(--font-2);
 }
-
 h1,
 h2,
 h3 {
   font-family: var(--font-1);
   font-weight: 400;
 }
-
 h1,
 h2 {
   margin-bottom: 1rem;
 }
-
 h1 {
   color: var(--cl-4);
   font-size: 8vw;
 }
-
 h2 {
   font-size: 6vw;
 }
-
 .index_middle h3 {
   text-align: center;
   font-size: 7vw;
   color: var(--cl-4);
 }
-
 .menu a {
   font-family: var(--font-2);
 }
-
 .contact_title {
   padding-bottom: 15rem;
   background-color: var(--cl-3);
@@ -70,11 +60,9 @@ h2 {
   padding-left: 5rem;
   padding-right: 5rem;
 }
-
 .contact_photo img {
   height: 60vh;
 }
-
 .index_middle {
   background-color: var(--cl-3);
   padding: 5rem 0;
@@ -146,10 +134,6 @@ textarea {
   padding-top: 50px;
   font-size: 4rem;
   font-weight: 500;
-}
-
-body {
-  background-color: #f2e9b8;
 }
 
 @media (min-width: 800px) {

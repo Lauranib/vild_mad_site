@@ -45,6 +45,10 @@ h1 {
 h2 {
   font-size: 6vw;
 }
+.contact_title p {
+  font-size: 1.5rem;
+  color: var(--cl-4);
+}
 .index_middle h3 {
   text-align: center;
   font-size: 7vw;
@@ -54,7 +58,7 @@ h2 {
   font-family: var(--font-2);
 }
 .contact_title {
-  padding-bottom: 15rem;
+  padding-bottom: 10rem;
   background-color: var(--cl-3);
   text-align: center;
   padding-left: 5rem;

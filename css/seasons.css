@@ -114,7 +114,7 @@
 }
 
 .index_button:hover {
-  color: var(--cl-5);
+  color: var(--cl-2);
   opacity: 80%;
   transition: 0.1s;
 }

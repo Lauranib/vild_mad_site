@@ -1,4 +1,4 @@
-.hero-image {
+/* .hero-image {
   background-image: url("billeder/forest.jpg");
   height: 60vh;
   background-position: 50% 50%;
@@ -9,6 +9,9 @@
   left: 0;
   width: 100%;
   z-index: -1;
+} */
+
+.forsidebillede {
 }
 
 #beige {

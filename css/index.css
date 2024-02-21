@@ -171,9 +171,6 @@ main {
     padding-left: 5rem;
     padding-right: 5rem;
   }
-  .menu a {
-    font-size: 1.5rem;
-  }
   .grid_1-1 {
     display: grid;
     grid-template-columns: 1fr 1fr;

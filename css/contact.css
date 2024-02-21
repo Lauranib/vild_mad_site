@@ -148,6 +148,10 @@ textarea {
   font-weight: 500;
 }
 
+body {
+  background-color: #f2e9b8;
+}
+
 @media (min-width: 800px) {
   h1 {
     color: var(--cl-4);
@@ -160,10 +164,6 @@ textarea {
 
   .index_middle h3 {
     font-size: 3rem;
-  }
-
-  .menu a {
-    font-size: 1.5rem;
   }
 }
 

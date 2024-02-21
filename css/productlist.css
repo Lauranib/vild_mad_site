@@ -20,6 +20,11 @@ img {
 .overskrift1 {
   font-family: var(--font-1);
 }
+header nav ul {
+  gap: 70px;
+  font-size: 1rem;
+  font-family: var(--font-2);
+}
 
 #bue {
   margin-top: 4rem;

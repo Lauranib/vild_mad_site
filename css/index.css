@@ -1,6 +1,6 @@
 /* -------------------------Hero Image by w3schools-------------------------- */
 .hero-image {
-  background-image: url("billeder/forest.jpg");
+  background-image: url("billeder/forest.webp");
   height: 90vh;
   background-position: 50% 50%;
   background-repeat: no-repeat;
@@ -12,7 +12,6 @@
   z-index: -1;
   overflow: hidden;
 }
-
 #red {
   width: 150%;
   height: 150%;
@@ -23,72 +22,52 @@
   right: 0;
   position: relative;
 }
-
-/* .hero-text {
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-} */
 /* -------------------------Hero Image by w3schools-------------------------- */
-
 .background-video {
   position: relative;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
-  /* opacity: 0.5; */
   z-index: -1;
   background-color: var(--cl-4);
 }
-
 .page-hero {
   position: relative;
   overflow: hidden;
 }
-
 video[poster] {
   object-fit: cover;
   width: 100%;
   height: 70vh;
 }
-
 h1,
 h2,
 h3 {
   font-family: var(--font-1);
   font-weight: 400;
 }
-
 h1 {
   color: var(--cl-4);
   font-size: 8vw;
 }
-
 h2 {
   font-size: 6vw;
   margin-bottom: 20px;
 }
-
 .index_middle h3 {
   text-align: center;
   font-size: 7vw;
   color: var(--cl-4);
 }
-
 .col p {
   margin-bottom: 40px;
   font-size: 3.8vw;
   font-weight: 400;
 }
-
 main {
   font-family: var(--font-2);
 }
-
 .index_title {
   padding-bottom: 6rem;
   background-color: var(--cl-3);
@@ -96,19 +75,15 @@ main {
   padding-left: 2rem;
   padding-right: 2rem;
 }
-
 .menu a {
   font-family: var(--font-2);
 }
-
 .index_photo img {
   height: 60vh;
 }
-
 .grid_1-1 {
   background-color: var(--cl-4);
 }
-
 .col_button {
   display: flex;
   margin-bottom: 1em;
@@ -117,7 +92,6 @@ main {
   margin-top: 20px;
   margin-bottom: 20px;
 }
-
 .index_button {
   padding-top: 10px;
   padding-bottom: 10px;
@@ -129,18 +103,15 @@ main {
   box-shadow: 3px 3px 1px rgba(30, 30, 30, 0.2);
   border-radius: 3px;
 }
-
 .index_button:hover {
   color: var(--cl-6);
   background-color: var(--cl-5);
   transition: 0.1s;
 }
-
 .index_middle {
   background-color: var(--cl-3);
   padding: 5rem 0;
 }
-
 .col_button2 {
   display: flex;
   margin-bottom: 1em;
@@ -149,7 +120,6 @@ main {
   margin-top: 20px;
   margin-bottom: 20px;
 }
-
 .index_button2 {
   padding-top: 10px;
   padding-bottom: 10px;
@@ -161,67 +131,55 @@ main {
   box-shadow: 3px 3px 1px rgba(85, 73, 50, 0.2);
   border-radius: 3px;
 }
-
 .index_button2:hover {
   color: var(--cl-2);
   background-color: var(--cl-4);
   transition: 0.15s;
 }
-
 .col_button a,
 .col_button2 a {
   font-size: 1.5rem;
 }
-
 .col {
   color: var(--cl-3);
 }
-
 .col_text,
 .col_text2 {
   padding-top: 50px;
   padding-bottom: 50px;
   margin: 0 20px;
 }
-
 @media (min-width: 800px) {
   h1 {
     color: var(--cl-4);
     font-size: 4rem;
   }
-
   h2 {
     font-size: 2.5rem;
     margin-bottom: 30px;
   }
-
   .index_middle h3 {
     font-size: 3rem;
     margin-bottom: 50px;
   }
-
   .col p {
     margin-bottom: 50px;
     font-size: 1.2rem;
   }
-
   .index_title {
     padding-bottom: 10rem;
     padding-left: 5rem;
     padding-right: 5rem;
   }
-
   .menu a {
     font-size: 1.5rem;
   }
-
   .grid_1-1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     background-color: var(--cl-4);
     gap: 80px;
   }
-
   .col img {
     height: 28em;
     margin-top: 60px;
@@ -229,18 +187,11 @@ main {
     box-shadow: 3px 3px 6px rgba(30, 30, 30, 0.2);
     border-radius: 5px;
   }
-
-  .col_text {
+  .col_text,
+  .col_text2 {
     margin-top: 60px;
     margin-left: 80px;
   }
-
-  .col_text2 {
-    margin-top: 60px;
-    /* margin-left: 40px; */
-    margin-right: 80px;
-  }
-
   .col_button {
     display: flex;
     margin-bottom: 1em;
@@ -249,11 +200,9 @@ main {
     margin-top: 20px;
     margin-bottom: 20px;
   }
-
   .order {
     order: -1;
   }
-
   .index_middle {
     padding: 10rem 0;
   }

@@ -105,7 +105,8 @@ h3 {
 .p_svampenavn {
   padding-bottom: 8px;
   font-family: sans-serif;
-  font-size: 0.9rem;
+  font-size: 1.3rem;
+  font-weight: bold;
 }
 
 .svampe {
@@ -152,6 +153,10 @@ h3 {
   color: #6f1e23;
   text-decoration-color: #c36e0b;
 }
+.knap {
+  text-align: justify;
+}
+
 /*.lister {
     list-style: none;
     margin: 0;

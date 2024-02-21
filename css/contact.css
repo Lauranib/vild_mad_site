@@ -148,6 +148,10 @@ textarea {
   font-weight: 500;
 }
 
+body {
+  background-color: #f2e9b8;
+}
+
 @media (min-width: 800px) {
   h1 {
     color: var(--cl-4);

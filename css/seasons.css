@@ -32,6 +32,10 @@
   position: relative;
 }
 
+.menu a {
+  font-family: var(--font-2);
+}
+
 .seasons_title {
   /* background-color: var(--cl-3); */
   font-family: var(--font-1);

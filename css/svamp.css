@@ -1,3 +1,31 @@
+.hero-image {
+    background-image: url("billeder/forest.webp");
+    height: 60vh;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+  }
+  #beige {
+    height: 200px;
+    background-color: var(--cl-2);
+    overflow: hidden;
+  }
+  #gul {
+    width: 150%;
+    height: 200%;
+    background-color: var(--cl-3);
+    border-radius: 100%;
+    top: 50%;
+    left: -25%;
+    right: 0;
+    position: relative;
+  }
+
 #bue {
     margin-top: 2rem;
 }

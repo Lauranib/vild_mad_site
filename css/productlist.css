@@ -9,6 +9,19 @@ img {
   display: block;
 }
 
+.hero-image {
+  background-image: url("billeder/forest.jpg");
+  height: 60vh;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+}
+
 .row2 {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));

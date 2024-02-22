@@ -115,7 +115,7 @@
   padding-right: 60px;
   color: var(--cl-4);
   text-decoration: none;
-  background-color: var(--cl-2);
+  background-color: var(--cl-3);
   box-shadow: 3px 3px 1px rgba(30, 30, 30, 0.2);
   border-radius: 3px;
 }
@@ -161,5 +161,5 @@ h3 {
 .grid:nth-child(even) h2,
 .grid:nth-child(even) h3,
 .grid:nth-child(even) p {
-  color: beige;
+  color: var(--cl-3);
 }

@@ -28,6 +28,10 @@
   position: relative;
 }
 
+.menu a {
+  font-family: var(--font-2);
+}
+
 h1 {
   font-family: var(--font-1);
   font-size: var(--size-h1);

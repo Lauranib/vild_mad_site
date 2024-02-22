@@ -65,6 +65,10 @@ p {
 h3 {
   font-family: var(--font-2);
 }
+
+.menu a {
+  font-family: var(--font-2);
+}
 @media (max-width: 800px) {
   body {
     background-color: #efede0;

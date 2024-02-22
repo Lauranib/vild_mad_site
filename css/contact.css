@@ -125,11 +125,11 @@ textarea {
 }
 #overskrift_svamp {
   color: var(--cl-4);
-  font-family: var(--font-2);
+  font-family: var(--font-1);
   text-align: center;
   padding-top: 50px;
-  font-size: 4rem;
-  font-weight: 600;
+  font-size: 3rem;
+  font-weight: 700;
 }
 @media (min-width: 800px) {
   h1 {

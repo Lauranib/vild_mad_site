@@ -52,6 +52,10 @@ h3 {
   font-family: var(--font-1);
 }
 
+.menu a {
+  font-family: var(--font-2);
+}
+
 .p_svampe {
   padding-bottom: 10px;
 }

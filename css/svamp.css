@@ -404,3 +404,7 @@ li {
 p {
     margin-top: 0.8rem;
 }
+
+.menu a{
+    font-family: var(--font-2);
+}
